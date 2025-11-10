@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Mail, Phone, MapPin, Send, Sparkles } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Youtube } from 'lucide-react';
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,7 +44,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-4 gap-8 mb-16">
             <div className="bg-white border border-gray-200 rounded-3xl shadow-lg group hover:shadow-xl transition-all duration-500">
               <div className="p-8 rounded-3xl h-full">
                 <div className="flex flex-col items-center">
@@ -86,7 +86,26 @@ const Contact = () => {
                     <MapPin size={32} className="text-gray-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-700 mb-2">Location</h3>
-                  <p className="text-gray-600 font-medium">Bangalore, India</p>
+                  <p className="text-gray-600 font-medium">Kottayam, India</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-3xl shadow-lg group hover:shadow-xl transition-all duration-500">
+              <div className="p-8 rounded-3xl h-full">
+                <div className="flex flex-col items-center">
+                  <div className="p-4 bg-gray-100 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <Youtube size={32} className="text-gray-600" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-700 mb-2">YouTube</h3>
+                  <a
+                    href="https://www.youtube.com/@NitinMathew1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-gray-800 transition-colors duration-300 font-medium"
+                  >
+                    @NitinMathew1
+                  </a>
                 </div>
               </div>
             </div>

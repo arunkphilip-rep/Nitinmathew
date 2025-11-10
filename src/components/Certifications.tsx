@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from 'react';
-import { Award, Calendar, Shield, BookOpen, TrendingUp } from 'lucide-react';
+import { Calendar, Shield, BookOpen, TrendingUp } from 'lucide-react';
 
 const certifications = [
   {
-    name: 'NISM Investment Adviser (Level 1 & 2)',
-    issuer: 'National Institute of Securities Markets',
-    period: '2025 - 2028',
-    description: 'Creates a common minimum knowledge benchmark for investment advisers under SEBI regulations.',
+    name: 'NISM-Series-X-B: Investment Adviser (Level 2)',
+    issuer: 'National Institute of Securities Markets (NISM)',
+    period: 'Issued Mar 2025 · Expires Mar 2028',
+    description: 'Advanced certification in Investment Advisory Services, Financial Planning, and related skills.',
     icon: Shield,
     color: 'from-green-300 to-emerald-300',
     bgColor: 'from-green-25 to-emerald-25',
   },
   {
-    name: 'Financial Modelling and Valuation',
-    issuer: 'Imarticus Learning Pvt Ltd',
-    period: '2016 - Present',
-    description: 'Focused on modelling the three financial statements with comprehensive valuation techniques.',
+    name: 'NISM-Series-X-A: Investment Adviser (Level 1)',
+    issuer: 'National Institute of Securities Markets (NISM)',
+    period: 'Issued Feb 2025 · Expires Feb 2028',
+    description: 'Foundation certification in Investment Advisory Services.',
     icon: BookOpen,
     color: 'from-blue-300 to-cyan-300',
     bgColor: 'from-blue-25 to-cyan-25',
   },
   {
-    name: 'Bloomberg Core Concepts',
-    issuer: 'Bloomberg LLP',
-    period: '2019 - Present',
-    description: 'Introduction to various features of the Bloomberg Terminal for financial analysis.',
+    name: 'BMC\'s Core Concepts',
+    issuer: 'Bloomberg',
+    period: 'Issued Nov 2019',
+    description: 'Bloomberg Market Concepts certification demonstrating proficiency in financial markets and tools. Credential ID: 156450709185',
     icon: TrendingUp,
     color: 'from-purple-300 to-pink-300',
     bgColor: 'from-purple-25 to-pink-25',
