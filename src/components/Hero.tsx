@@ -97,7 +97,7 @@ const Hero = () => {
           >
             <div className="relative aspect-[3/4] w-56 h-72 md:w-72 md:h-96 lg:w-80 lg:h-96 overflow-hidden rounded-3xl shadow-2xl border border-white/20 backdrop-blur-sm">
               <img
-                src="/images/profile.png"
+                src="/Nitinmathew/images/profile.png"
                 alt="Nitin Mathew"
                 className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700 ease-out"
               />
